@@ -61,6 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.CounterTest.executor": "Run",
     "TestNG.F:/Workspaces/java/Study/cicdDemo/src/testng.xml.executor": "Run",
     "TestNG.F:/Workspaces/java/Study/cicdDemo/testng.xml.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -185,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762259868281</updated>
       <workItem from="1762259869245" duration="3061000" />
-      <workItem from="1762262948742" duration="322000" />
+      <workItem from="1762262948742" duration="1340000" />
     </task>
     <servers />
   </component>

@@ -16,7 +16,7 @@ public class CounterImpl implements Counter {
 
     @Override
     public void decrease() {
-
+        counter.set(counter.get() - 1);
     }
 
     @Override
