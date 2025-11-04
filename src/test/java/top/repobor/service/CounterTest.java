@@ -5,12 +5,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-class CounterTest {
-    private final Counter counter = new CounterImpl();
+public class CounterTest {
+    private Counter counter;
 
     @BeforeMethod
     public void beforeMethod() {
-        System.out.println("Before Method");
+        counter = new CounterImpl();
     }
 
     @Test

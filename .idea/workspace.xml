@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07cbe121-f089-40a0-905a-a8c708ee66c4" name="更改" comment="" />
+    <list default="true" id="07cbe121-f089-40a0-905a-a8c708ee66c4" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/repobor/service/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/repobor/service/CounterTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +23,29 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Repobor&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Repobor/cicdemo.git&quot;,
+    &quot;accountId&quot;: &quot;bc6f77dd-8450-4ab3-b2a7-394ff8df1e21&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="350vaXpI2uMTLqjcw8LhbJfcqJa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,10 +60,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "TestNG.F:/Workspaces/java/Study/cicdDemo/src/testng.xml.executor": "Run",
     "TestNG.F:/Workspaces/java/Study/cicdDemo/testng.xml.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -47,9 +73,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "F:/Workspaces/java/Study/cicdDemo/src/main/java/top/repobor/Main.java",
-    "project.structure.last.edited": "SDK",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "应用程序.Main.executor": "Run"
   }
@@ -66,7 +93,7 @@
       <recent name="top.repobor.service" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.F:/Workspaces/java/Study/cicdDemo/testng.xml">
+  <component name="RunManager" selected="TestNG.CounterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.repobor.Main" />
       <module name="cicddemo" />
@@ -95,6 +122,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CounterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="cicddemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.repobor.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.repobor.service" />
+      <option name="MAIN_CLASS_NAME" value="top.repobor.service.CounterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="F:/Workspaces/java/Study/cicdDemo/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="cicddemo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
@@ -117,10 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CounterTest" />
         <item itemvalue="TestNG.F:/Workspaces/java/Study/cicdDemo/testng.xml" />
+        <item itemvalue="应用程序.Main" />
         <item itemvalue="TestNG.F:/Workspaces/java/Study/cicdDemo/src/testng.xml" />
         <item itemvalue="JUnit.CounterTest" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -139,11 +184,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762259868281</updated>
-      <workItem from="1762259869245" duration="1897000" />
+      <workItem from="1762259869245" duration="3061000" />
+      <workItem from="1762262948742" duration="322000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/repobor/service/CounterImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
